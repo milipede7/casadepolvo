@@ -1,0 +1,108 @@
+body{
+  font-style: oblique;
+  font-family: monospace, "Lucida Console";
+  font-size: 120%;
+  padding: 3%;
+  background: RoyalBlue;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 10px;
+  border-color: black;
+  box-shadow: inset 0px 0px 50px black;
+  margin: 4em;
+}
+
+html,body{overflow-y: scroll; }
+
+p:hover{
+  color:orange;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:visited {
+  color: red;
+}
+
+canvas {
+  z-index: -1;
+}
+
+.language:hover{
+  text-shadow: 0px 0px 10px white, 0px 0px 100px gold, 0px 0px 100px green;
+}
+
+.language{
+  font-style: normal;
+  padding: .5em;
+  color: orange;
+  /* background-color: white; */
+  background-blend-mode: darken;
+  /* box-shadow: 0px 0px 50px white, 0px 0px 75px red, 0px 0px 100px green; */
+  /* border-radius: 50%; */
+  /* display: inline-flex; */
+  display: table;
+  text-decoration: none;
+  margin:auto;
+  line-height: 200%;
+  text-align: center;
+  font-size: 200%;
+  margin-bottom: 4%;
+  text-shadow: 0px 0px 20px midnightblue, 0px 0px 75px orange, 0px 0px 100px orange;
+}
+
+.line{
+  margin: auto;
+  margin-bottom: 2em;
+  margin-top: 1em;
+  color: LightBlue;
+  font-size: 400%;
+  text-align: center;
+  text-shadow: 0px 0px 10px white;
+}
+
+.entry1{
+  margin: auto;
+  text-align: center;
+  padding: 2em;
+  margin-bottom: 10%;
+  display: table;
+  background: linear-gradient(90deg, rgba(93,251,63,1) 0%, rgba(70,207,252,1) 100%);
+  border: solid;
+}
+
+.entry2{
+  margin: auto;
+  text-align: center;
+  padding: 2em;
+  margin-bottom: 10%;
+  display: table;
+background: linear-gradient(284deg, rgba(93,251,63,1) 34%, rgba(70,207,252,1) 100%);
+  border-style: solid;
+}
+
+.entry3{
+  margin: auto;
+  text-align: center;
+  padding: 2em;
+  margin-bottom: 10%;
+  display: table;
+  background: linear-gradient(120deg, rgba(93,251,63,1) 0%, rgba(70,207,252,1) 100%);
+  border-style: solid;
+}
+
+.myButton{
+  margin: auto;
+  text-align: center;
+  padding:.5em;
+  width:20px;
+  height:20px;
+  background-color: orange;
+  border-radius: 20px;
+  user-select: none;
+  transition: color 0.5s ease;
+  cursor: pointer;
+  border-style: solid;
+}
