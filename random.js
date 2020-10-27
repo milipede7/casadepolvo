@@ -6,14 +6,6 @@ let eQ2_1;let eQ2_2;let eQ2_3;let eQ2_4;let eQ2_5;
 //q3
 let eQ3_1;let eQ3_2;let eQ3_3;let eQ3_4;let eQ3_5;
 
-//declaring Spanglish Question answers
-let sQ1;
-let sQ2;
-let sQ3;
-//declaring Ingles Question answers
-let iQ1;
-let iQ2;
-let iQ3;
 
 //accessing the user input by formdata
 function formdata(){
@@ -23,40 +15,40 @@ function formdata(){
   let eString1_1 = document.getElementById("eQ1_1").value;
   let eString1_2 = document.getElementById("eQ1_2").value;
   let eString1_3 = document.getElementById("eQ1_3").value;
-  let eString1_4 = document.getElementById("eQ1_4").value;
-  let eString1_5 = document.getElementById("eQ1_5").value;
+  // let eString1_4 = document.getElementById("eQ1_4").value;
+  // let eString1_5 = document.getElementById("eQ1_5").value;
 //question 2
   let eString2_1 = document.getElementById("eQ2_1").value;
   let eString2_2 = document.getElementById("eQ2_2").value;
   let eString2_3 = document.getElementById("eQ2_3").value;
-  let eString2_4 = document.getElementById("eQ2_4").value;
-  let eString2_5 = document.getElementById("eQ2_5").value;
+  // let eString2_4 = document.getElementById("eQ2_4").value;
+  // let eString2_5 = document.getElementById("eQ2_5").value;
 //question 3
   let eString3_1 = document.getElementById("eQ3_1").value;
   let eString3_2 = document.getElementById("eQ3_2").value;
   let eString3_3 = document.getElementById("eQ3_3").value;
-  let eString3_4 = document.getElementById("eQ3_4").value;
-  let eString3_5 = document.getElementById("eQ3_5").value;
+  // let eString3_4 = document.getElementById("eQ3_4").value;
+  // let eString3_5 = document.getElementById("eQ3_5").value;
 
 //define the variable type
 //question 1
   eQ1_1 = String(eString1_1);
   eQ1_2 = String(eString1_2);
   eQ1_3 = String(eString1_3);
-  eQ1_4 = String(eString1_4);
-  eQ1_5 = String(eString1_5);
+  // eQ1_4 = String(eString1_4);
+  // eQ1_5 = String(eString1_5);
 //question 2
   eQ2_1 = String(eString2_1);
   eQ2_2 = String(eString2_2);
   eQ2_3 = String(eString2_3);
-  eQ2_4 = String(eString2_4);
-  eQ2_5 = String(eString2_5);
+  // eQ2_4 = String(eString2_4);
+  // eQ2_5 = String(eString2_5);
 //question 3
   eQ3_1 = String(eString3_1);
   eQ3_2 = String(eString3_2);
   eQ3_3 = String(eString3_3);
-  eQ3_4 = String(eString3_4);
-  eQ3_5 = String(eString3_5);
+  // eQ3_4 = String(eString3_4);
+  // eQ3_5 = String(eString3_5);
 
 
 //log for debugging
@@ -76,24 +68,24 @@ function genPoetry(){
   eQ1word1 = eQ1_1;
   eQ1word2 = eQ1_2;
   eQ1word3 = eQ1_3;
-  eQ1word4 = eQ1_4;
-  eQ1word5 = eQ1_5;
+  // eQ1word4 = eQ1_4;
+  // eQ1word5 = eQ1_5;
 //q2
   eQ2word1 = eQ2_1;
   eQ2word2 = eQ2_2;
   eQ2word3 = eQ2_3;
-  eQ2word4 = eQ2_4;
-  eQ2word5 = eQ2_5;
+  // eQ2word4 = eQ2_4;
+  // eQ2word5 = eQ2_5;
 //q3
   eQ3word1 = eQ3_1;
   eQ3word2 = eQ3_2;
   eQ3word3 = eQ3_3;
-  eQ3word4 = eQ3_4;
-  eQ3word5 = eQ3_5;
+  // eQ3word4 = eQ3_4;
+  // eQ3word5 = eQ3_5;
 
-  let eQ1list = [eQ1word1, eQ1word2, eQ1word3, eQ1word4, eQ1word5];
-  let eQ2list = [eQ2word1, eQ2word2, eQ2word3, eQ2word4, eQ2word5];
-  let eQ3list = [eQ3word1, eQ3word2, eQ3word3, eQ3word4, eQ3word5];
+  let eQ1list = [eQ1word1, eQ1word2, eQ1word3];
+  let eQ2list = [eQ2word1, eQ2word2, eQ2word3];
+  let eQ3list = [eQ3word1, eQ3word2, eQ3word3];
 
   let random1 = Math.floor(Math.random() * eQ1list.length);
   console.log(random1, eQ1list[random1]);
